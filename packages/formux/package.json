@@ -1,6 +1,6 @@
 {
-  "name": "formux",
-  "version": "0.0.1",
+  "name": "form-ux",
+  "version": "0.0.0",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
