@@ -1,0 +1,25 @@
+{
+  "version": "0.0.0",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "version": {
+      "exact": true,
+      "conventionalCommits": true,
+      "message": "chore(release): %s [skip ci]",
+      "changelogPreset": "@pragmatics/preset"
+    },
+    "publish": {
+      "ignoreChanges": [
+        "*.md",
+        "*.sh"
+      ]
+    },
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    }
+  }
+}
