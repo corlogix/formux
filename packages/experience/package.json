@@ -2,6 +2,7 @@
   "name": "@formux/experience",
   "version": "0.0.0",
   "scripts": {
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/corlogix/formux/issues"
   },
-  "homepage": "https://github.com/corlogix/formux#readme"
+  "homepage": "https://github.com/corlogix/formux#readme",
+  "devDependencies": {
+    "sass": "^1.42.1"
+  }
 }
