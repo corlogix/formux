@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "main": "lib/index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
