@@ -1,6 +1,6 @@
 {
   "name": "@formux/experience",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
