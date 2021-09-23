@@ -10,5 +10,7 @@
         "skipLibCheck": true,
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
+        "incremental": true,
+        "composite": true,
     }
 }
