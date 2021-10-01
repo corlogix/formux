@@ -1,0 +1,1 @@
+export type LabelValue<L = string, V = any> = { label: L; value: V; }

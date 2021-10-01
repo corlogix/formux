@@ -21,6 +21,9 @@
     "url": "https://github.com/corlogix/formux/issues"
   },
   "homepage": "https://github.com/corlogix/formux#readme",
+  "dependencies": {
+    "@formux/common": "0.0.0"
+  },
   "devDependencies": {
     "@formux/experience": "0.0.1",
     "@types/react": "^17.0.24",

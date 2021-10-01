@@ -15,4 +15,9 @@ export type FormField = {
     dirty: boolean;
 };
 
-export default createCtx<FormContext>({ formData: null }, false);
+const [ useFormContext,  FormProvider ] =  createCtx<FormContext>({ formData: null }, false);
+
+export {
+  useFormContext,
+  FormProvider
+}

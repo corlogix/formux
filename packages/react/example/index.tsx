@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Form } from '../src/components/Form';
 import { Input } from "../src/components/Input";
 
 const App = () => {
     return <div>
-        <Input />
+        <Form data={{}}>
+          <Input name="" />
+        </Form>
     </div>
 }
 
