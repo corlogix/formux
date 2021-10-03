@@ -2,7 +2,9 @@
   "name": "@formux/experience",
   "version": "0.0.1",
   "scripts": {
+    "start": "vite build --watch",
     "build": "vite build",
+    "build-sass": "sass --output-style expanded ./scss/index.scss ./css/index.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +21,8 @@
   },
   "homepage": "https://github.com/corlogix/formux#readme",
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
     "sass": "^1.42.1"
   }
 }

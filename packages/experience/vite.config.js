@@ -8,7 +8,7 @@ module.exports = defineConfig({
     build: {
         outDir: "./css",
         lib: {
-            entry: path.resolve(__dirname, 'sass/index.scss'),
+            entry: path.resolve(__dirname, 'scss/index.scss'),
             name: "css",
             fileName: "index.css"
         },

@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import { Form } from '../src/components/Form';
 import { Input } from "../src/components/Input";
 
+import "./index.scss";
+
 const App = () => {
     return <div>
         <Form data={{}}>

@@ -2,6 +2,7 @@
 	"name": "@formux/common",
 	"version": "0.0.0",
 	"main": "lib/index.js",
+  "types": "lib/index.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "git+ssh://git@github.com/corlogix/formux.git"
@@ -15,6 +16,9 @@
 		"url": "https://github.com/corlogix/formux/issues"
 	},
 	"homepage": "https://github.com/corlogix/formux#readme",
+  "scripts": {
+    "build": "tsc"
+  },
 	"dependencies": {
 		"lodash.clonedeep": "^4.5.0",
 		"lodash.get": "^4.4.2",
